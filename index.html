@@ -2,20 +2,20 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>LO0E - UML4.4 - Git & Use case diagram</title>
+        <title>LO0E - UML4.5 - Git & Use case diagram</title>
         <link rel="stylesheet" href="style/index.css">
     </head>
     <body>
 
         <header id="header">
-            <h1 id="page-title">LO0E - UML4.4 - Git & Use case diagram</h1>
+            <h1 id="page-title">LO0E - UML4.5 - Git & Use case diagram</h1>
             <p id="naam">Naam van student</p>
             <p id="version">Versie: 1.0</p>
         </header>
 
         <main id="main">
             <section id="intro">
-                <h1>UML4.4 Git & Use case diagram</h1>
+                <h1>UML4.5 Git & Use case diagram</h1>
             </section>
 
             <article id="introductie">
@@ -76,7 +76,6 @@
                         <li>
                             Zoek een passende afbeelding voor <em>DIT</em> hoofdstuk,
                             voeg deze afbeelding toe in de map <em>images</em> en maak een commit.
-                            <a href="https://www.google.com/search?q=pictures&tbm=isch&&tbs=ic:trans,sur:fmc,itp:clipart">zoeken</a>
                         </li>
                         <li>
                             Pas de src aan van de placeholder afbeelding van <em>DIT</em> hoofdstuk aan,
@@ -125,26 +124,23 @@
                     <h3>User stories</h3>
 
                     <ul>
-                        <li>Als koper wil ik een account aanmaken zodat ik mijn bestellingen kan bijhouden</li>
-                        <li>Als koper wil ik inloggen zodat ik producten direct kan bestellen</li>
-                        <li>Als koper wil ik producten zoeken zodat ik mijn favoriete product kan bestellen</li>
-                        <li>Als koper wil ik mijn bestellingen betalen met ideal omdat ik geen creditcard heb.
+                        <li>Als student wil ik inloggen zodat ik mijn studentenzaken kan regelen</li>
+                        <li>Als student wil ik mijn cijfers kunnen bekijken, zodat ik weet hoe ik er voor sta</li>
+                        <li>Als student wil ik mijn aanwezigheid kunnen zien, zodat ik weet of leerplicht mij gaat stalken.
                         </li>
-                        <li>Als koper wil ik mijn bestellingen betalen met creditcard zodat mijn aankopen
-                            beschermd zijn.
+                        <li>Als student wil ik mijn rooster kunnen inzien, zodat ik geen lessen mis.
                         </li>
-                        <li>Als koper wil ik mijn vragen kunnen stellen aan de service-medewerker zodat ik mijn
-                            vragen beantwoord krijg.
+                        <li>Als student wil ik mijn ouders toestemming kunnen geven om mijn cijfers te kunnen inzien, zodat ze ophouden met er naar vragen</li>
+                        <li>Als ouder wil ik de cijfers kunnen zien van mijn minderjarige kind, zodat ik weet hoe hij/zij ervoor staat.
                         </li>
-                        <li>Als beheerder wil ik producten toevoegen zodat kopers nieuwe producten kunnen
+                        <li>Als ouder wil ik de aanwezigheid kunnen zien van mijn minderjarige kind, zodat ik weet of ze wel op school zijn overdag.
                             bestellen.
                         </li>
-                        <li>Als beheerder wil ik producten verwijderen zodat oude producten niet meer te
-                            bestellen zijn.
+                        <li>Als docent wil ik cijfers kunnen invoeren, zodat de voortgang van de studenten wordt bijgehouden.
                         </li>
-                        <li>Als beheerder wil ik producten wijzigen zodat de product informatie up-to-date
-                            blijft.
+                        <li>Als docent wil ik de aan-/afwezigheid van mijn les kunnen invullen, zodat afwezige studenten worden opgemerkt.
                         </li>
+                        <li>Als leerplicht wil ik een seintje krijgen als een student afwezig wordt gemeld door docent, zodat ik er achteraan kan bellen.</li>
                     </ul>
                 </section>
 
@@ -164,23 +160,25 @@
                         </p>
                     </div>
                     <div class="meta">
-                        <img src="images/kapow.png">
+                        <img id="winnaar-image" src="images/kapow.png">
                     </div>
                 </header>
 
                 <section>
-                    <h3>Joker</h3>
+                    <h3>One punch man</h3>
                     <ul>
-                        <li>Begin een nieuwe feature branch: <strong>joker</strong></li>
-                        <li>Pas de hierboven aangegeven winnaar aan naar: <em>Joker</em></li>
+                        <li>Begin een nieuwe feature branch <strong>one-punch-man</strong> vanuit <strong>develop</strong></li>
+                        <li>Pas de hierboven aangegeven winnaar aan naar: <em>One punch Man</em></li>
+                        <li>Pas het plaatje hierboven (id=winnaar-image) aan naar een afbeelding van <em>One punch man</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
-                    <h3>Chuck</h3>
+                    <h3>Naruto</h3>
                     <ul>
                         <li>Ga terug naar de <strong>develop</strong> branch</li>
-                        <li>Begin een nieuwe feature branch: <strong>chuck</strong></li>
-                        <li>Pas de hierboven aangegeven winnaar aan naar: <em>Chuck</em></li>
+                        <li>Begin een nieuwe branch <strong>naruto</strong> vanuit <strong>develop</strong></li>
+                        <li>Pas de hierboven aangegeven winnaar aan naar: <em>Naruto</em></li>
+                        <li>Pas het plaatje hierboven (id=winnaar-image) aan naar een afbeelding van <em>Naruto</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
@@ -188,25 +186,14 @@
                     <ul>
                         <li>Ga terug naar de <strong>develop</strong> branch</li>
                         <li>
-                            <em>Merge</em> de aanpassingen van <strong>chuck</strong> naar
+                            <em>Merge</em> de aanpassingen van <strong>naruto</strong> naar
                             <strong>develop</strong>.
                         </li>
-                        <li>Controleer of <em>Chuck</em> de winnaar is.</li>
-                        <li><em>Merge</em> de aanpassingen van <strong>joker</strong> naar
+                        <li>Controleer of <em>Naruto</em> de winnaar is.</li>
+                        <li><em>Merge</em> de aanpassingen van <strong>one-punch-man</strong> naar
                             <strong>develop</strong>.
                         </li>
-                        <li>
-                            <strong>Conflict!</strong>
-                            <pre><code>
-                                <<<<<<< HEAD
-                                &lt;span id="winnaar"&gt;Chuck&lt;/span&gt;
-                                =======
-                                &lt;span id="winnaar"&gt;Joker&lt;/span&gt;
-                                >>>>>>> joker
-                                </code>
-                            </pre>
-                        </li>
-                        <li>Zorg dat <em>Joker</em> de winnaar is.</li>
+                        <li>Zorg dat <em>One punch man</em> de winnaar is.</li>
                         <li>Commit de merge</li>
                         <li>Push de <strong>develop</strong> branch naar github</li>
                     </ul>
